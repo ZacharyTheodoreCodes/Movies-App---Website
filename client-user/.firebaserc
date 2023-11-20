@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "movieapp-public-35050",
+    "deploy": "movieapp-public2",
+    "movieapp-public": "movieapp-public-35050"
+  },
+  "targets": {},
+  "etags": {}
+}

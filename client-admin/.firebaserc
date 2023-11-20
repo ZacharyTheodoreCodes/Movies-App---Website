@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "movieapp-admin-7e0fe",
+    "movieapp-admin": "movieapp-admin-7e0fe"
+  },
+  "targets": {},
+  "etags": {}
+}
