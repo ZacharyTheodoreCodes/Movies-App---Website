@@ -1,5 +1,6 @@
 import bgImg from "../assets/images/background.jpg";
-import netflixLogo from "../assets/images/netflix-logo.svg";
+
+import logo from "../assets/images/logo.png";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
@@ -50,16 +51,21 @@ export default function LoginPage() {
 
   return (
     <>
-      <div className="relative flex h-screen overflow-y-hidden w-screen flex-col md:items-center md:justify-center md:bg-transparent bg-[#080808] text-white">
+      <div
+        className="relative flex h-screen overflow-y-hidden w-screen flex-col md:items-center md:justify-center md:bg-transparent bg-[#080808] text-white"
+        style={{
+          background: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${bgImg}) center/cover no-repeat`,
+        }}
+      >
         {/* Background */}
-        <img
+        {/* <img
           src={bgImg}
           className="-z-10 !hidden opacity-[20%] sm:!inline bg-cover absolute"
-        />
+        /> */}
 
         {/* Logo Icon */}
         <img
-          src={netflixLogo}
+          src={logo}
           className="absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6"
           width={150}
           height={150}

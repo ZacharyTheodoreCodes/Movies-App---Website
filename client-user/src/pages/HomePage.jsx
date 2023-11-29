@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Header from "../components/Header";
 import CardContainer from "../components/CardContainer";

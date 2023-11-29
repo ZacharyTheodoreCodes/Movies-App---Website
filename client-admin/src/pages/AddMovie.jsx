@@ -15,7 +15,7 @@ export default function AddGenre() {
     try {
       await dispatch(addMovie(form));
       cb();
-      navigate("/");
+      navigate("/"); 
       toast.success(`${form.title} has been added`, toastOptions);
     } catch (error) {
       console.log(error);
