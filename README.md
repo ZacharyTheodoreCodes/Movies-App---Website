@@ -6,15 +6,18 @@ Consisted of two apps:
 - Admin facing website that has authentication and features to perform CRUD operation.
 - Login info : email: admin@gmail.com, password: test123
 
-### Tech Stack Used:
+Tech Stack Used:
 
 - Front-end: ReactJS, Redux, HTML,CSS, Tailwind
 - Back-end: ExpressJs, Sequelize, NodeJS, PostgreSQL
 - Deployment: AWS, Firebase
 
-### Project Snippet:
+Video Links:
 
-#### Public-Facing Site:
+- Public site: https://drive.google.com/file/d/1GSP7XTxeMS-A2S7WIvX6LuQkkWA4DL9V/view?usp=sharing
+- Admin site: https://drive.google.com/file/d/1rCNcm5oZW85Am3j-jo1Xsw6l65cJ06V0/view?usp=sharing
+
+# Public-Facing Site:
 
 #### Home page:
 
@@ -26,7 +29,7 @@ Consisted of two apps:
 
 ![detailpage2](screenshots/3.jpg)
 
-#### Admin-Facing site
+# Admin-Facing site
 
 #### Sign In:
 
